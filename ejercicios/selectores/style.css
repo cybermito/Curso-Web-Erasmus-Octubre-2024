@@ -1,0 +1,33 @@
+/* Selector universal */
+
+* {
+    background: lightcoral;
+}
+
+/* Selector de tipo */
+
+h1 {
+    color: red;
+    background: yellowgreen;
+}
+
+/* Selector de clase */
+
+.titulo2 {
+    font-size: 3em;
+    color: lightgray;
+}
+
+/* Selector de ID */
+
+#parrafo {
+    color: purple;
+}
+
+/* Selector de atributo */
+
+a[href="#"]{
+    font-size: 2em;
+    text-decoration: none;
+}
+

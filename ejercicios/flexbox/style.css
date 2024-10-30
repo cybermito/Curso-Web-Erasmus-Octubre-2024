@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: lightslategray;
+    height: 200px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: purple;
+}

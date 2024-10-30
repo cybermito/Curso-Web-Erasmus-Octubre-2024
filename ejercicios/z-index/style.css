@@ -1,0 +1,38 @@
+div {
+    position: relative;
+    background: palegoldenrod;
+    text-align: center;
+}
+
+.red {
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    text-align: center;
+    
+}
+
+.blue {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background: blue ;
+    text-align: center;
+    
+    
+}
+
+.yellow {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+/* Selectores descendientes */
+
+div p {
+    color: lime;
+}
+
+/* Direct son - Hijo directo */
+
+div > div {
+    background: plum;
+}
+
+/* Selector elemento adyacente */
+
+div + section {
+    background: lightsalmon;
+}
+
+/* Selector general de hermanos */
+
+div ~ p {
+    color: red;
+}

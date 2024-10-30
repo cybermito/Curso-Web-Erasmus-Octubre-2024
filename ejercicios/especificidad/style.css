@@ -1,0 +1,30 @@
+* { /* Especificidad 0 */
+    background: grey;
+}
+
+h1 { /*Especificidad 1 */
+    color: red;
+    background: white;
+}
+
+span { /* Especificidad 1 */
+    color: red;
+    background: white;
+}
+
+.title { /* Especificidad 10 */
+    background: greenyellow;
+    text-transform: uppercase;
+}
+
+header h1 span { /* Especificidad 1 + 1 + 1 = 3 */
+
+    background: lightsalmon;
+    text-transform: lowercase;
+    color: lightskyblue;
+}
+
+
+
+
+

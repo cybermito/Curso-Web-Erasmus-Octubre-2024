@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px;
+    padding: 5px;
+    border: 10px solid lightgreen;
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    background: lightcoral;
+
+}
+
+.item {
+    background: lightsalmon;
+}
