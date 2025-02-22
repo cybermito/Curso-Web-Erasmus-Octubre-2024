@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background: lightseagreen;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.card figure {
+    height: 300px;  
+    overflow: hidden; 
+}
+
+.card figure img {
+    width: 100%;
+}
+
+
+.card .text {
+    text-align: center;
+    padding: 10px;  
+    
+}
+
+.card .text p {
+    margin-top: 10px;
+}
+
+.card .text p span {
+    font-weight: bold;
+}
+
+.card .text p:nth-child(2){
+    color: gold;
+    font-size: 1.5em;
+    font-weight: bold;
+}

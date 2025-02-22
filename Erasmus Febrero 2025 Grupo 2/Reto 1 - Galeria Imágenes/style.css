@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+}
+
+header .logo {
+    width: 25%;
+    
+   
+}
+
+.barra-navegacion {
+    width: 75%;    
+}
+
+.barra-navegacion ul {
+    float: right;
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra-navegacion ul li a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+

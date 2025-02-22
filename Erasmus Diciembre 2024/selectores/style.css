@@ -1,0 +1,33 @@
+/* Esto es un comentario */
+
+/* Selector universal */
+
+* {
+    background: lightgreen;
+}
+
+/* Selector de tipo */
+
+h1 {
+    color: lightcoral;
+    background: whitesmoke;
+}
+
+/* Selector de clase */
+
+.header2 {
+    font-size: 3em;
+    color: lightblue;
+}
+
+/* Selector de ID */
+#parrafo {
+    color: purple;
+}
+
+/* Selector de Atributo */
+
+a[href="#"] {
+    font-size: 2em;
+    text-decoration: none;
+}

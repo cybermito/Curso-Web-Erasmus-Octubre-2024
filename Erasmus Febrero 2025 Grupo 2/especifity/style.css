@@ -1,0 +1,25 @@
+/* Especificidad */
+
+* {
+    background: grey;
+}
+
+h1 {
+    color: red;
+}
+
+.title {
+    background: white;
+    text-transform: uppercase;
+    color: lightcoral;
+}
+
+span {
+    color: blue;
+}
+
+header h1 .title {
+    background: whitesmoke;
+    text-transform: lowercase ;
+    color: lightskyblue;
+}

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bs08obn1jqrw7"]
+
+[sub_resource type="SystemFont" id="SystemFont_c7xav"]
+font_names = PackedStringArray("8-bit Operator+ SC")
+font_weight = 650
+font_stretch = 150
+
+[sub_resource type="LabelSettings" id="LabelSettings_kui0w"]
+font = SubResource("SystemFont_c7xav")
+font_size = 40
+
+[node name="Label" type="Label"]
+offset_left = 438.0
+offset_top = 263.0
+offset_right = 733.0
+offset_bottom = 320.0
+text = "Hello World"
+label_settings = SubResource("LabelSettings_kui0w")

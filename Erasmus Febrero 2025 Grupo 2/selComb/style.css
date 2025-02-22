@@ -1,0 +1,25 @@
+/*Selectores combinadores */
+
+/* Descendientes */
+
+div p {
+    color: rgb(120, 172, 120);
+}
+
+/* Hijo directo */
+
+div > p {
+    background: lightgray;
+}
+
+/* elemento adyadcente */
+
+div + section {
+    background: salmon;
+}
+
+/* General de hermanos */
+
+div ~ p {
+    color: red;
+}

@@ -1,0 +1,23 @@
+* {
+    background: gray;
+}
+
+header h1 span {
+    background: whitesmoke;
+    text-transform: lowercase;
+    color: lightskyblue
+}
+
+h1 {
+    color: red;
+}
+
+.title {
+    background: white;
+    text-transform: uppercase;
+}
+
+span {
+    color: blue;
+}
+

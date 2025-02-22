@@ -1,0 +1,5 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732682272
+icon.svg::CompressedTexture2D::8025055152303086400::1732562537::1732595625::1::::<><>::
+sprite_2d.gd::GDScript::-1::1732599661::0::1::::<>Sprite2D<>::
+sprite_2d.tscn::PackedScene::5798647634954078232::1732599684::0::1::::<><>::uid://dmlnqrxfhh4rc::::res://icon.svg<>res://sprite_2d.gd

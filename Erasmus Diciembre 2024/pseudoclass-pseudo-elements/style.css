@@ -1,0 +1,28 @@
+/* Pseudoclass */
+
+p:hover {
+    color:red;
+    font-size: 2rem;
+}
+
+div p:nth-child(3) {
+    font-weight: bold;
+}
+
+/*PseudoElements*/
+
+p::first-line {
+    color: blueviolet;
+}
+
+p::before {
+    content: "👉 🇷🇴";
+}
+
+p::after {
+    content: " 💜" ;
+}
+
+::placeholder {
+    color: lightcoral;
+}

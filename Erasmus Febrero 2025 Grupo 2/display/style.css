@@ -1,0 +1,27 @@
+/* Tipos de display */
+
+div { /* default block */
+    display: inline-block;
+    background: black;
+    color: greenyellow;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+a { /*default inline*/
+   
+    background: skyblue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+button { /* default inline-block */
+    background: black;
+    color: greenyellow;
+    width: 200px;
+    height: 50px;
+    margin: 50px ;
+}

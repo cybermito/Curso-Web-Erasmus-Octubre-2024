@@ -1,0 +1,39 @@
+/* pseudoclass */
+
+p:hover {
+    color:red;
+    font-size:1.5em;
+}
+
+div p:nth-child(3){
+    color: brown;
+    font-weight: bold;
+}
+
+input:focus {
+    background: lightslategray;
+}
+
+/* pseudoelements */
+
+p::first-letter {
+    color: Red;
+    font-size: 1.5em ;
+}
+
+p::first-line {
+    color: rgb(75, 61, 146);
+}
+
+p::before {
+    content: "👉 🇷🇴";
+}
+
+p::after {
+    content: " 💜"
+}
+
+::placeholder{
+    color:red;
+}
+

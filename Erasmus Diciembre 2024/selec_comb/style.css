@@ -1,0 +1,23 @@
+/* Selectores Descencientes */
+
+div p {
+    color:lime;
+}
+
+/* Hijo directo */
+
+div > div {
+    background: plum;
+}
+
+/* Elemento Adyadcente */
+
+div + section {
+    background: lightsalmon;
+}
+
+/* Selector General de hermanos */
+
+div ~ p {
+    color: red;
+}

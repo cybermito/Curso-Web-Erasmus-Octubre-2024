@@ -1,0 +1,24 @@
+/* Url documentación Flexbox y CSS-Grid */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+/* MDN DOCS */
+/* Juegos para aprender Flexbox y CSS Grid */
+/* Flexbox: https://flexboxfroggy.com/ */
+/* CSS Grid: https://cssgridgarden.com/ */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: greenyellow;
+    height: 300px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: grey;
+}

@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://da0aj8n51yvpa"]
+
+[sub_resource type="SystemFont" id="SystemFont_rmetw"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fea84"]
+font = SubResource("SystemFont_rmetw")
+font_size = 51
+font_color = Color(0.854902, 0.647059, 1, 1)
+outline_size = 10
+shadow_size = 4
+shadow_color = Color(0.926897, 0.914707, 0.91081, 0)
+shadow_offset = Vector2(2, 0)
+
+[node name="Label" type="Label"]
+offset_left = 107.0
+offset_top = 190.0
+offset_right = 374.0
+offset_bottom = 260.0
+scale = Vector2(2.96, 2.56)
+text = "Atibot2019"
+label_settings = SubResource("LabelSettings_fea84")

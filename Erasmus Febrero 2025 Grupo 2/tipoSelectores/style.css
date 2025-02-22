@@ -1,0 +1,39 @@
+/* Tipo de selectores */
+
+/* Selector universal */
+* {
+    background: lightslategray;
+}
+
+/* Selector de tipo */
+h1 {
+    background: lightcoral;
+    color: white;
+}
+
+p {
+    background: rgb(201, 251, 245);
+}
+
+/* Selector de clase */
+
+.cabecera {
+    background: rgb(229, 178, 255);
+    padding: 10px;
+}
+
+/* Selector de Id*/
+
+#descripcion {
+    background: black;
+    color: greenyellow;
+    padding: 10px;
+}
+
+/* Selector de atributo */
+
+a[href="https://atigra.es"] {
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
